@@ -9,11 +9,11 @@
         "Microsoft.AspNet.Server.WebListener": "1.0.0-beta1",
         "Microsoft.AspNet.StaticFiles": "1.0.0-beta1",
         "Kestrel": "1.0.0-beta1",
-        "EntityFramework": "7.0.0-*",
-        "EntityFramework.Migrations": "7.0.0-*",
-        "EntityFramework.Commands": "7.0.0-*",
+        "EntityFramework": "7.0.0-beta1",
+        "EntityFramework.Migrations": "7.0.0-beta1",
+        "EntityFramework.Commands": "7.0.0-beta1",
         "System.Data.Entity.Repository": "2.0.0.1",
-        "MySql.Data.Entity.EF6": "6.8.3"      
+        "MySql.Data.Entity.EF6": "6.8.3"
     },
     "commands": {
         "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5001",
