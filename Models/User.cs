@@ -1,13 +1,22 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
-namespace MvcSample.Web.Models
+namespace VNext.Models
 {
-    public class User
-    {
-        [Required]
-        [MinLength(4)]
-        public string Name { get; set; }
-        public string Address { get; set; }
-        public int Age { get; set; }
-    }
+  public class User
+  {
+    [Key]
+    public long id { get; set; }
+
+    [Required]
+    [MinLength(4)]
+    public string Name { get; set; }
+
+    [Required]
+    [MinLength(6)]
+    public string Username { get; set; }
+
+    [Required]
+    [MinLength(6)]
+    public string Password { get; set; }
+  }
 }

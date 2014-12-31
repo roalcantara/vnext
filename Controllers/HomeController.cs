@@ -1,21 +1,22 @@
-﻿using Microsoft.AspNet.Mvc;
-using MvcSample.Web.Models;
+using Microsoft.AspNet.Mvc;
+using VNext.Models;
 
-namespace MvcSample.Web
+namespace VNext.Web
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            return View(User());
+            return View(this.User());
         }
 
         public User User()
         {
             User user = new User()
             {
-                Name = "My name",
-                Address = "My address"
+                Name = "Rogerio R Alcantra",
+                Username = "roalcantara",
+                Password = "qazwsx"
             };
 
             return user;
