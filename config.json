@@ -1,0 +1,13 @@
+{
+  "Data": {
+    "DefaultConnection": {
+        "ConnectionString":"server=localhost;UserId=vnext;Password=vnext..;database=vnext_development;CharSet=utf8;Persist Security Info=True",
+        "ProviderName":"MySql.Data.MySqlClient"
+    }
+  },
+  "EntityFramework": {
+    "MyDbContext": {
+        "ConnectionStringKey": "Data:DefaultConnection:ConnectionString"
+    }
+  }
+}

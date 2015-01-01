@@ -5,7 +5,7 @@ namespace VNext.Models
   public class User
   {
     [Key]
-    public long id { get; set; }
+    public long Id { get; set; }
 
     [Required]
     [MinLength(4)]
